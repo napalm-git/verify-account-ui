@@ -75,3 +75,25 @@ body {
     max-width: 50px;
   }
 }
+
+.verification-box {
+  width: 400px;
+  padding: 10px;
+  background-color: #e0e1dd;
+  color: #1b263b;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 0 10px 30px 3px rgba(0, 0, 0, 0.25);
+}
+
+.verification-box .first-line {
+  margin-bottom: 10px;
+}
