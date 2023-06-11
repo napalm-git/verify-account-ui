@@ -59,3 +59,19 @@ body {
   outline-color: #1b263b;
   outline-style: solid;
 }
+
+.code:valid {
+  border-color: #1b263b;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 600px) {
+  .code-container {
+    flex-wrap: wrap;
+  }
+  .code {
+    font-size: 60px;
+    height: 80px;
+    max-width: 50px;
+  }
+}
