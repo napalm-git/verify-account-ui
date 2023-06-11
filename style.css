@@ -48,3 +48,14 @@ body {
   text-align: center;
   font-weight: 300;
 }
+
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.code:focus {
+  outline-color: #1b263b;
+  outline-style: solid;
+}
