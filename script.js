@@ -39,5 +39,8 @@ function checkVerification() {
     <span class="second-line">You will be redirected to the home page in 5 seconds.</span>`;
 
     document.body.appendChild(verificationBox);
+
+    // Hide the container element
+    container.style.display = "none";
   }
 }
