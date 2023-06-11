@@ -9,3 +9,5 @@ I feel as though in a way i accomplished that goal by adding a verification aler
 I used couple different colors in the Ui itself mainly whiteish and blueish very light blue or very dark blue colors.
 
 And the font was the Mule font from google fonts.
+
+Here is the pages link if you want to check it out 👉 https://napalm-git.github.io/verify-account-ui/
