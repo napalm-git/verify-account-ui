@@ -1,6 +1,6 @@
 # A functional Ui component for account verification.
 
-This project contains a few bit of javascript compared to many other projects i have here.
+This project contains a few bit of javascript compared to other projects i have here.
 
 My main goal was to sort of mimic those websites where when you try to login to their website they sent your email a 6 digit code that you need to enter on the website in order to login.
 
