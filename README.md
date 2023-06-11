@@ -1,4 +1,4 @@
-# A functional Ui element for account verification.
+# A functional Ui component for account verification.
 
 This project contains a few bit of javascript compared to many other projects i have here.
 
