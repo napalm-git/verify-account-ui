@@ -26,6 +26,13 @@ codeInputs.forEach((code, idx) => {
   });
 });
 
+// Create a function to reset the form inputs
+function resetFormInputs() {
+  codeInputs.forEach((code) => {
+    code.value = "";
+  });
+}
+
 // Create a function to check if the verification is completed
 function checkVerification() {
   const filled = codeInputs.every(
@@ -42,5 +49,12 @@ function checkVerification() {
 
     // Hide the container element
     container.style.display = "none";
+
+    setTimeout(() => {
+      // Reset the form inputs
+      resetFormInputs();
+      // Refresh the page after 5 seconds
+      location.reload();
+    }, 5000);
   }
 }
